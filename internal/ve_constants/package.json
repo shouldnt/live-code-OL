@@ -1,0 +1,10 @@
+{
+  "name": "ve_constants",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "moment": "^2.29.3",
+    "moment-timezone": "^0.5.34"
+  }
+}

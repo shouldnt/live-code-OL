@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.screen {
+    width: 400px;
+    height: 700px;
+    border: 1px solid green;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    padding: 0 34px
+}
+
+.header {
+    font-size: 20px;
+    font-weight: 500;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.btn {
+    padding: 10px;
+    height: 34px;
+    background: #43AF3A;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    &.red {
+        background: #F35060
+    }
+}

@@ -1,0 +1,20 @@
+const PROXY_ACCOUNT_TYPE = {
+    TIN: 1,
+    TM: 3,
+}
+
+const PROXY_ACCOUNT_STATUS = {
+    ACTIVE: 1,
+    INACTIVE: 3,
+}
+
+const PROXY_ACCOUNT_API_STATUS = {
+    ACTIVE: 1,
+    INACTIVE: 3,
+}
+
+module.exports = {
+    PROXY_ACCOUNT_TYPE,
+    PROXY_ACCOUNT_STATUS,
+    PROXY_ACCOUNT_API_STATUS,
+}

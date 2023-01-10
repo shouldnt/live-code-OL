@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "esnext",
+    "baseUrl": "./src",
+    "paths": {
+      "@": ["./index.js"],
+      "@components/*": [
+        "./components/*"
+      ],
+      "@pages/*": [
+        "./pages/*"
+      ],
+      "@assets/*": [
+        "./assets/*"
+      ],
+      "@images/*": [
+        "./assets/img/*"
+      ],
+      "@icons/*": [
+        "./assets/icons/*"
+      ],
+      "@translations/*": [
+        "./lib/translations/*"
+      ],
+      "@lib/*": [
+        "./lib/*"
+      ],
+      "@utilities/*": [
+        "./utilities/*"
+      ],
+      "@redux/*": [
+        "./lib/redux/*"
+      ],
+      "@routes/*": [
+        "./lib/routes/*"
+      ],
+      "@http/*": [
+        "./lib/http/*"
+      ],
+      "constants": [
+        "./constants"
+      ],
+      "ve_constants/*": ["../internal/ve_constants/*"]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "internal/ve_constants"
+  ]
+}
